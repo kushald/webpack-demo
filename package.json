@@ -1,0 +1,23 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "Using webpack for react.js applications",
+  "main": "index.js",
+  "author": "Kushal Dongre",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-runtime": "^6.3.19",
+    "css-loader": "^0.23.1",
+    "html-webpack-plugin": "^2.7.1",
+    "react": "^0.14.6",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server --content-base build"
+  }
+}
